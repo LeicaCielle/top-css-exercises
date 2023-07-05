@@ -1,0 +1,14 @@
+div p {
+    background-color: rgb(226, 226, 25);
+    color: rgb(167, 16, 16);
+    font-size: 20px;
+    text-align: center;
+} /* Using type selector */
+
+.container .text {
+    background-color: rgb(226, 226, 25);
+    color: rgb(167, 16, 16);
+    font-size: 20px;
+    text-align: center;
+}
+
