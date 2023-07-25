@@ -29,6 +29,7 @@ input {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 ul {
@@ -45,9 +46,8 @@ a {
 body div.content {
   display: flex;
   justify-content: center;
-  flex: 50 0 500px;
-  margin-right: 250px;
-  margin-top: 220px;
+  align-items: center;
+  flex: 1 1 auto;
 }
 
 .header, .footer {
@@ -78,11 +78,11 @@ button {
 }
 
 .footer {
-  display: block;
   background: rgb(222, 217, 217);
   weight: 700px;
 }
 
 .right-links {
   padding-right: 12px;
+  margin-right: 12px;
 }
