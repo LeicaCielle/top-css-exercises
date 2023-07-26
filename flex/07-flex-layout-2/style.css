@@ -27,3 +27,70 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* my coding */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  /* it was automatically set with "padding-inline-start" in inspection, then set it to 0px
+  to reset because of the bullet list, then put the desired size */ 
+  padding: 16px;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodycontainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1; 
+}
+
+.sidebar {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.textbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 25px;
+}
+
+.card {
+  height: 330px;
+  width: 330px;
+  padding: 16px;
+}
+
+
+
+
+
